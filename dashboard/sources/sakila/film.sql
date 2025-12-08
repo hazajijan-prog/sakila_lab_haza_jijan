@@ -1,1 +1,2 @@
-from staging.actor; 
+SELECT *
+FROM staging.film;

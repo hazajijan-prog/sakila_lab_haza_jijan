@@ -1,56 +1,30 @@
 ---
-title: Welcome to Evidence
+title: Sakila – SQL labb
 ---
 
-<Details title='How to edit this page'>
+# Välkommen till min Sakila-dashboard
 
-  This page can be found in your project at `/pages/index.md`. Make a change to the markdown file and save it to see the change take effect in your browser.
-</Details>
+Detta är startsidan för min lösning på Sakila-labben i SQL-kursen.  
+Härifrån kan du navigera vidare till själva analysen av databasen.
 
-```sql categories
-  select
-      category
-  from needful_things.orders
-  group by category
-```
+---
 
-<Dropdown data={categories} name=category value=category>
-    <DropdownOption value="%" valueLabel="All Categories"/>
-</Dropdown>
+## Vad finns i dashboarden?
 
-<Dropdown name=year>
-    <DropdownOption value=% valueLabel="All Years"/>
-    <DropdownOption value=2019/>
-    <DropdownOption value=2020/>
-    <DropdownOption value=2021/>
-</Dropdown>
+I menyn till vänster hittar du sidan **“Sakila”**.  
+Där visar jag bland annat:
 
-```sql orders_by_category
-  select 
-      date_trunc('month', order_datetime) as month,
-      sum(sales) as sales_usd,
-      category
-  from needful_things.orders
-  where category like '${inputs.category.value}'
-  and date_part('year', order_datetime) like '${inputs.year.value}'
-  group by all
-  order by sales_usd desc
-```
+- EDA (Exploratory Data Analysis) på Sakila-databasen  
+- SQL-frågor jag använt i labben  
+- Tabeller och grafer med insikter om filmer, kunder och uthyrningar  
 
-<BarChart
-    data={orders_by_category}
-    title="Sales by Month, {inputs.category.label}"
-    x=month
-    y=sales_usd
-    series=category
-/>
+---
 
-## What's Next?
-- [Connect your data sources](settings)
-- Edit/add markdown files in the `pages` folder
-- Deploy your project with [Evidence Cloud](https://evidence.dev/cloud)
+## Gå vidare till analysen
 
-## Get Support
-- Message us on [Slack](https://slack.evidence.dev/)
-- Read the [Docs](https://docs.evidence.dev/)
-- Open an issue on [Github](https://github.com/evidence-dev/evidence)
+För att se själva analysen:
+
+1. Gå till menyn till vänster  
+2. Klicka på **“Sakila”**
+
+Där fortsätter resten av dashboarden.
