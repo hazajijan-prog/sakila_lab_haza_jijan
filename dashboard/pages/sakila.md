@@ -18,3 +18,14 @@ from sakila.film;
 select title, length
 from long_films;
 ```
+## Films containing "love" in the title 
+
+```sql love_films
+select 
+    title,
+    description,
+    rating,
+    length,
+    release_year
+from love_films;
+```
