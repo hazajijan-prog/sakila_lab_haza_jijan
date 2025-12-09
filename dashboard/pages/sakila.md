@@ -40,8 +40,10 @@ select
     customer_id,
     first_name,
     last_name,
-    num_rentals
-from top_renters;```
+    num_rentals,
+    total_spent
+from top_renters;
+```
 
 ## Customers who spent the most money
 
@@ -72,3 +74,38 @@ select
     num_rentals
 from top_films;
 ```
+
+
+
+```sql top_spenders_graph
+select
+    name,
+    total_spent
+from top_spenders_graph;
+```
+
+<BarChart
+    data={top_spenders_graph}
+    title="Top 5 Customers by Total Spend"
+    x=name
+    y=total_spent
+    swapXY=true
+    color="darkgreen"
+/>
+
+
+
+```sql top_revenue_categories
+select
+    category,
+    total_revenue
+from top_revenue_categories;
+```
+
+<BarChart 
+    data={top_revenue_categories} 
+    title="Total Revenue per Film Category" 
+    x=category 
+    y=total_revenue 
+    swapXY=true 
+    color="darkgreen" />
