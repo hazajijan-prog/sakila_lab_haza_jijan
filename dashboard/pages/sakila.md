@@ -38,8 +38,7 @@ from love_films;
 ```sql top_renters
 select
     customer_id,
-    first_name,
-    last_name,
+    full_name,
     num_rentals,
     total_spent
 from top_renters;
@@ -50,8 +49,7 @@ from top_renters;
 ```sql top_spenders
 select
     customer_id,
-    first_name,
-    last_name,
+    full_name,
     total_spent
 from top_spenders;
 ```
@@ -79,7 +77,7 @@ from top_films;
 
 ```sql top_spenders_graph
 select
-    name,
+    full_name,
     total_spent
 from top_spenders_graph;
 ```
@@ -87,7 +85,7 @@ from top_spenders_graph;
 <BarChart
     data={top_spenders_graph}
     title="Top 5 Customers by Total Spend"
-    x=name
+    x=full_name
     y=total_spent
     swapXY=true
     color="darkgreen"
