@@ -1,2 +1,4 @@
-SELECT *
-FROM staging.film;
+SELECT
+    *
+FROM
+    staging.film;

@@ -1,7 +1,11 @@
 SELECT
     title,
     length
-FROM staging.film
-WHERE length > 180
-ORDER BY length DESC
-LIMIT 10;
+FROM
+    staging.film
+WHERE
+    length > 180
+ORDER BY
+    length DESC
+LIMIT
+    10;
