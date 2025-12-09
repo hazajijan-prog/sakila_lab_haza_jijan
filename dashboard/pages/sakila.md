@@ -18,7 +18,7 @@ from sakila.film;
 select
     title,
     length
-from long_films;
+from sakila.long_films;
 ```
 
 ## Films containing "love" in the title 
@@ -30,7 +30,7 @@ select
     rating,
     length,
     release_year
-from love_films;
+from sakila.love_films;
 ```
 
 ## Customers who rented the most movies
@@ -51,7 +51,7 @@ select
     customer_id,
     full_name,
     total_spent
-from top_spenders;
+from sakila.top_spenders;
 ```
 
 ## Cities that generate the most rentals
@@ -60,7 +60,7 @@ from top_spenders;
 select
     city,
     num_rentals
-from top_cities;
+from sakila.top_cities;
 ```
 
 ## Most rented films
@@ -70,7 +70,7 @@ select
     film_id,
     title,
     num_rentals
-from top_films;
+from sakila.top_films;
 ```
 
 
@@ -79,7 +79,7 @@ from top_films;
 select
     full_name,
     total_spent
-from top_spenders_graph;
+from sakila.top_spenders_graph;
 ```
 
 <BarChart
@@ -97,7 +97,7 @@ from top_spenders_graph;
 select
     category,
     total_revenue
-from top_revenue_categories;
+from sakila.top_revenue_categories;
 ```
 
 <BarChart 
