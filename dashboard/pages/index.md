@@ -1,30 +1,33 @@
----
-title: Sakila – SQL labb
----
+# Sakila – SQL Lab
+Welcome to my Sakila dashboard.
 
-# Välkommen till min Sakila-dashboard
-
-Detta är startsidan för min lösning på Sakila-labben i SQL-kursen.  
-Härifrån kan du navigera vidare till själva analysen av databasen.
+This is the start page for my solution to the Sakila SQL lab.  
+Here I present results from my analysis of the Sakila database, where I explored movies, customers, revenue, and rentals.  
+The dashboard makes it easy to spot patterns in the data and get a clear overview of my findings.
 
 ---
 
-## Vad finns i dashboarden?
+## What’s in the dashboard?
 
-I menyn till vänster hittar du sidan **“Sakila”**.  
-Där visar jag bland annat:
+In the menu on the left, you will find the **Sakila** page.  
+There I show:
 
-- EDA (Exploratory Data Analysis) på Sakila-databasen  
-- SQL-frågor jag använt i labben  
-- Tabeller och grafer med insikter om filmer, kunder och uthyrningar  
+- EDA (Exploratory Data Analysis) on the Sakila database  
+- The SQL queries used in the lab  
+- Tables and charts with insights about movies, customers, and rentals  
+- Visualizations of popular films, active customers, and category revenue  
+
+Each section includes both a chart and the SQL code behind it, making the results easy to follow.
 
 ---
 
-## Gå vidare till analysen
+## Continue to the analysis
 
-För att se själva analysen:
+To view the full dashboard:
 
-1. Gå till menyn till vänster  
-2. Klicka på **“Sakila”**
+- Go to the menu on the left and click **Sakila**,  
+**Or simply click here:**  [**Sakila**](/sakila)
 
-Där fortsätter resten av dashboarden.
+This will take you to all analyses and visualizations.
+
+---
