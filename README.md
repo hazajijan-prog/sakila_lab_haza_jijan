@@ -15,3 +15,10 @@ The goal of the lab is to practice data ingestion, exploratory data analysis (ED
 - Evidence dashboard showing the most rented films, top customers and revenue insights
 - Structured SQL files in /sources/sakila for reproducible queries
 - ETL script for loading data into DuckDB
+
+# Lab Instructions
+The full lab instructions used for this lab are included in this repository:
+
+File: `lab_sakila.pdf`
+
+GitHub can display the PDF directly in the browser if needed.
