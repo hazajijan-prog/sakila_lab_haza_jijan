@@ -10,4 +10,6 @@ GROUP BY
     c.customer_id,
     full_name
 ORDER BY
-    total_spent DESC;
+    total_spent DESC
+LIMIT
+    10;

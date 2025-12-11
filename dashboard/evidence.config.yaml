@@ -1,32 +1,20 @@
 appearance:
-  default: system
-  switcher: true
+  default: light
+  switcher: false
 
 theme:
   colorPalettes:
     default:
       light:
-        - "#236aa4"
-        - "#45a1bf"
-        - "#a5cdee"
-        - "#8dacbf"
-        - "#85c7c6"
-        - "#d2c6ac"
-        - "#f4b548"
-        - "#8f3d56"
-        - "#71b9f4"
-        - "#46a485"
-      dark:
-        - "#236aa4"
-        - "#45a1bf"
-        - "#a5cdee"
-        - "#8dacbf"
-        - "#85c7c6"
-        - "#d2c6ac"
-        - "#f4b548"
-        - "#8f3d56"
-        - "#71b9f4"
-        - "#46a485"
+        - "#ffa7c4"
+        - "#ffbfd4"
+        - "#ff88ad"
+        - "#d97a88"
+        - "#c08c6e"
+        - "#e7c9b1"
+        - "#b35f68"
+        - "#8c4a4e"
+      dark: []
   colorScales:
     default:
       light:
