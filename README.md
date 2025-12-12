@@ -2,6 +2,9 @@
 
 ## Video presentation
 Link to recorded presentation of the lab:
+https://drive.google.com/file/d/1HoLHdy6He7zMsawc8IT0WirkKxgpmjZB/view?usp=drive_link
+
+https://drive.google.com/file/d/1T-QKXc8Chz1COxZkfGMoH-aMNiVSZ7F6/view?usp=drive_link
 
 
 This project explores the Sakila movie rental database using SQL, DuckDB, Pandas and Evidence.
