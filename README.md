@@ -1,4 +1,9 @@
 # Sakila lab
+
+## Video presentation
+Link to recorded presentation of the lab:
+
+
 This project explores the Sakila movie rental database using SQL, DuckDB, Pandas and Evidence.
 The goal of the lab is to practice data ingestion, exploratory data analysis (EDA), visualization and dashboard creation. 
 
