@@ -1,10 +1,7 @@
-SELECT
-    title,
-    description,
-    rating,
-    length,
-    release_year
-FROM
-    staging.film
-WHERE
-    title ILIKE '%love%';
+    SELECT
+        title,
+        rating,
+        length,
+        description
+    FROM films
+    WHERE title ILIKE '%love%';
